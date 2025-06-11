@@ -22,7 +22,7 @@ function createSitemap($urls, $fileName) {
 $keywords = file('hajar.txt', FILE_IGNORE_NEW_LINES);
 
 // URL พื้นฐาน
-$base_url = 'https://bandonchomphu.ac.th/th/?play=';
+$base_url = 'https://suanmon.ac.th/news/?play=';
 
 // กำหนดจำนวน URL ที่จะใส่ในแต่ละไฟล์
 $urls_per_file = 10000;
@@ -37,7 +37,7 @@ $allUrls = [];
 // สร้าง sitemap ตามจำนวนที่กำหนด
 $fileCount = 1;
 $currentUrls = [];
-$base_sitemap_url = 'https://bandonchomphu.ac.th/th/'; // URL base สำหรับไฟล์ Sitemap
+$base_sitemap_url = 'https://suanmon.ac.th/news/'; // URL base สำหรับไฟล์ Sitemap
 
 foreach ($keywords as $keyword) {
     $currentUrls[] = $base_url . urlencode($keyword);
