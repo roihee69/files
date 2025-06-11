@@ -22,7 +22,7 @@ function createSitemap($urls, $fileName) {
 $keywords = file('baccarat.txt', FILE_IGNORE_NEW_LINES);
 
 // URL พื้นฐาน
-$base_url = 'https://suanmon.ac.th/news/lazada.php?play=';
+$base_url = 'https://xn--42c2b7ac4iwc.com/views/lazada.php?play=';
 
 // กำหนดจำนวน URL ที่จะใส่ในแต่ละไฟล์
 $urls_per_file = 5000;
@@ -37,7 +37,7 @@ $allUrls = [];
 // สร้าง sitemap ตามจำนวนที่กำหนด
 $fileCount = 1;
 $currentUrls = [];
-$base_sitemap_url = 'https://suanmon.ac.th/news/'; // URL base สำหรับไฟล์ Sitemap
+$base_sitemap_url = 'https://xn--42c2b7ac4iwc.com/views/'; // URL base สำหรับไฟล์ Sitemap
 
 foreach ($keywords as $keyword) {
     $currentUrls[] = $base_url . urlencode($keyword);
